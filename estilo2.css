@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./imagenes/fondo-body.png);
+}
+
+.audio{
+    position: relative;
+    z-index: 10001;
+}
+
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.contenedor_sonido{
+    position: absolute;
+    left: 1300px;
+
+}
+
+
+.mousei{
+    width: 25px;
+    position: absolute !important;
+    left: 1176px;
+    top: 398px;
+    opacity: 1;
+
+    animation-name: movimiento-mouse;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    cursor: pointer;
+}
+
+.mouse{
+    width: 60px;
+    position: absolute !important;
+    left: 660px;
+    top: 557px;
+    opacity: 1;
+
+    animation-name: movimiento-mouse;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    cursor: pointer;
+}
+
+.mouse1-1{
+    width: 25px;
+    position: absolute !important;
+    left: 1176px;
+    top: 398px;
+    opacity: 1;
+    display: none;
+
+    animation-name: movimiento-mouse;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    cursor: pointer;
+}
+
+.mouse2{
+    width: 60px;
+    position: absolute !important;
+    left: 656px;
+    top: 400px;
+    opacity: 1;
+
+    animation-name: movimiento-mouse;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    cursor: pointer;
+}
+
+.mouse2-1{
+    width: 25px;
+    position: absolute !important;
+    left: 1176px;
+    top: 398px;
+    opacity: 1;
+    display: none;
+
+    animation-name: movimiento-mouse;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    cursor: pointer;
+}
+
+.mouse3{
+    width: 60px;
+    position: absolute !important;
+    left: 665px;
+    top: 369px;
+    opacity: 1;
+
+    animation-name: movimiento-mouse;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    cursor: pointer;
+}
+
+.mouse3-1{
+    width: 25px;
+    position: absolute !important;
+    left: 1176px;
+    top: 398px;
+    opacity: 1;
+    display: none;
+
+    animation-name: movimiento-mouse;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    cursor: pointer;
+}
+
+.mouse4{
+    width: 60px;
+    position: absolute !important;
+    left: 640px;
+    top: 318px;
+    opacity: 1;
+
+    animation-name: movimiento-mouse;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    cursor: pointer;
+}
+
+.mouse4-1{
+    width: 25px;
+    position: absolute !important;
+    left: 1176px;
+    top: 398px;
+    opacity: 1;
+    display: none;
+
+    animation-name: movimiento-mouse;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    cursor: pointer;
+}
+
+.mouse5{
+    width: 60px;
+    position: absolute !important;
+    left: 630px;
+    top: 380px;
+    opacity: 1;
+
+    animation-name: movimiento-mouse;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    cursor: pointer;
+}
+
+.mouse5-1{
+    width: 25px;
+    position: absolute !important;
+    left: 1176px;
+    top: 398px;
+    opacity: 1;
+    display: none;
+
+    animation-name: movimiento-mouse;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    cursor: pointer;
+}
+
+
+@keyframes movimiento-mouse{
+    0%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(50%);
+    }
+}
+
+.contenedor_principal2{
+    width: 1440px;
+    height: 800px;
+    margin: auto;
+}
+
+.contenedor_animacion2{
+    display: flex;
+    width: 1280px;
+    height: 800px;
+    margin: auto;
+}
+
+.contenedor_botones{
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+    height: 100px;
+    margin: auto;
+    gap: 2rem;
+}
+
+.boton1{
+    text-align: center;
+    margin-top: 1rem;
+    width: 200px;
+    height: 4rem;
+    font-size: 20px;
+}
+
+.boton2{
+    text-align: center;
+    margin-top: 1rem;
+    width: 10rem;
+    height: 4rem;
+    font-size: 20px;
+}
+
+.contenedor_e1-2{
+    position: relative;
+}
+
+.contenedor_e2-2{
+    position: relative;
+}
+
+.colornext:hover{
+    background-color: red;
+}
+
+.colorprev:hover{
+    background-color: red;
+}
+
+
+
